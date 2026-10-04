@@ -18,6 +18,9 @@ h1{
   font-size: 48px;
   margin-bottom: 40px;
   letter-spacing: 1.5px;
+  text-align: center;
+  overflow-wrap: break-word;
+  padding: 0 10px;
   color: red;
 }
 
