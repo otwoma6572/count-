@@ -14,6 +14,7 @@ body{
   color: #fff;
 }
 
+
 h1{
   font-size: 48px;
   margin-bottom: 40px;
@@ -22,6 +23,7 @@ h1{
   overflow-wrap: break-word;
   padding: 0 10px;
   color: red;
+  width: 100%;
 }
 
 .countdown{
@@ -92,4 +94,10 @@ p{
     margin: 20px;
   }
   
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
 }
