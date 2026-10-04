@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+h1{
+  font-size: 48px;
+  margin-bottom: 40px;
+  letter-spacing: 1.5px;
+  color: red;
+}
+
+.countdown{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
+  padding: 40px 30px;
+  border-radius: 20px;
+  
+}
+.timer{
+  background-color: lightgreen;
+  color: black;
+  padding: 30px;
+  margin: 0 20px;
+  font-size: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 100px;
+  max-width: 160px;
+  height: 100%;
+
+}
+.timer .time{
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.timer . label {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.label{
+  color: red;
+}
+
+.timer:hover{
+  background-color: blue;
+  cursor: pointer;
+}
+.footer{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+p{
+  margin: 0;
+  color: black;
+}
+
+@media screen and (max-width:1024px){
+  h1{
+    font-size: 38px;
+  }
+  .countdown{
+    flex-wrap: wrap;
+  }
+  .timer{
+    max-height: 150px;
+    margin: 20px;
+  }
+  
+}
